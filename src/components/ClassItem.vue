@@ -1,5 +1,5 @@
 <template>
-    <div class="item-wrapper">
+    <div class="item-wrapper" :style="getBorderColor">
       <img class="img-avatar" :src="item.img" alt="">
       <div class="name">{{item.name}}</div>
       <div class="price">
@@ -24,8 +24,17 @@
       item:{
         type:Object,
         default:()=>{}
+      },
+      color:{
+        type:String,
+        default:'#90bebf',
       }
-    }
+    },
+    computed:{
+      getBorderColor(){
+        return {border:'1px solid' + this.color}
+      }
+    },
   }
 </script>
 
