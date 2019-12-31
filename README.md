@@ -1,6 +1,3 @@
-# xp-school-entry
-
-> A Vue.js project
 
 ## Build Setup
 
@@ -20,4 +17,4 @@ npm run staging
 # 编译运行于正式环境
 npm run build
 ```
-# meisiti
+
