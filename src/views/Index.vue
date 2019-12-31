@@ -55,21 +55,21 @@ export default {
       classList:[
         {
           img:require('@/assets/1.png'),
-          name:'儿童财富启蒙课',
+          name:'给儿童的写作课',
           price:9.9,
-          totalClass:6,
+          totalClass:15,
           views:2214,
           updateClass:4,
-          originalPrice:39.9
+          originalPrice:49
         },
         {
           img:require('@/assets/1.png'),
-          name:'妈妈财商课',
+          name:'让阅读点亮孩子的智慧人生',
           price:39.9,
-          totalClass:6,
+          totalClass:8,
           views:898,
           updateClass:4,
-          originalPrice:99
+          originalPrice:69
         },
         {
           img:require('@/assets/1.png'),
