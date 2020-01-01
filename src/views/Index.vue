@@ -1,7 +1,25 @@
 <template>
   <div class="wrapper">
     <header>
-      <img src="@/assets/background.png" alt="" class="header">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="@/assets/swiper1.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="@/assets/swiper2.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="@/assets/swiper3.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="@/assets/swiper4.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+      <!--<img src="@/assets/background.png" alt="" class="header">-->
       <ul class="tab">
         <li @click="goToClassPage">
           <img src="@/assets/ketang.png" alt="">
@@ -92,7 +110,15 @@ export default {
     }
   },
   mounted () {
-
+    var mySwiper = new Swiper ('.swiper-container', {
+      direction: 'horizontal', // 垂直切换选项
+      loop: true, // 循环模式选项
+      autoplay: true,
+      // 如果需要分页器
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    })
   },
   methods: {
     goToClassPage(){
@@ -103,6 +129,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
+  .swiper-container {
+    width: 375px;
+    height: 200px;
+    margin-bottom:1px;
+  }
+
   .wrapper{
     width: 375px;
     height:100%;

@@ -15,4 +15,7 @@ export default {
 .page-container {
   height: 100%;
 }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background:white !important;
+  }
 </style>
