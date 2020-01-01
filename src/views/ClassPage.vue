@@ -17,30 +17,48 @@
         classList:[
           {
             img:require('@/assets/1.png'),
-            name:'儿童财富启蒙课',
+            name:'给儿童的写作课',
             price:9.9,
-            totalClass:6,
+            totalClass:15,
             views:2214,
             updateClass:4,
-            originalPrice:39.9
+            originalPrice:49
           },
           {
-            img:require('@/assets/1.png'),
-            name:'妈妈财商课',
+            img:require('@/assets/2.png'),
+            name:'让阅读点亮孩子的智慧人生',
             price:39.9,
-            totalClass:6,
+            totalClass:8,
             views:898,
             updateClass:4,
+            originalPrice:69
+          },
+          {
+            img:require('@/assets/3.png'),
+            name:'唐诗解读课',
+            price:9.9,
+            totalClass:12,
+            views:2754,
+            updateClass:8,
+            originalPrice:49
+          },
+          {
+            img:require('@/assets/4.png'),
+            name:'汉字里的智慧人生',
+            price:29.9,
+            totalClass:17,
+            views:1655,
+            updateClass:17,
             originalPrice:99
           },
           {
-            img:require('@/assets/1.png'),
-            name:'儿童财富启蒙课',
-            price:'9.9',
-            totalClass:6,
-            views:1754,
-            updateClass:4,
-            originalPrice:399
+            img:require('@/assets/5.png'),
+            name:'儿童的注意力十大技法',
+            price:19.9,
+            totalClass:11,
+            views:754,
+            updateClass:11,
+            originalPrice:49
           },
         ]
       }
