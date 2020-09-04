@@ -31,7 +31,7 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "generate-asset-webpack-plugin": "^0.3.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "postcss-px-to-viewport": "^1.1.0",
     "sass-loader": "^7.1.0",
     "stylus": "^0.54.5",
